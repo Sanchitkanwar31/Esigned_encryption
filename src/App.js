@@ -10,8 +10,8 @@ import Programminggg from './components/nav/Programminggg';
 
 import Contact from './components/nav/Contact';
 import Footer from './components/Footer';
-import EncryptPage from './components/pythoncodes/encrypt_txt_input';
-import DecryptPage from './components/pythoncodes/decryption_txt';
+import EncryptPage from './components/tools/encrypt_txt_input';
+import DecryptPage from './components/tools/decryption_txt';
 function App() {
   return (
     <>
