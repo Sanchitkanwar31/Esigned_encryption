@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Sanchitkanwar31/Esigned_encryption.git/static/js/main.c62c66be.js",
-    "index.html": "/Sanchitkanwar31/Esigned_encryption.git/index.html",
-    "main.c62c66be.js.map": "/Sanchitkanwar31/Esigned_encryption.git/static/js/main.c62c66be.js.map"
+    "main.js": "/Esigned_encryption/static/js/main.c62c66be.js",
+    "index.html": "/Esigned_encryption/index.html",
+    "main.c62c66be.js.map": "/Esigned_encryption/static/js/main.c62c66be.js.map"
   },
   "entrypoints": [
     "static/js/main.c62c66be.js"
