@@ -3,105 +3,103 @@ import React from 'react';
 function Download() {
   return (
     <div>
-    <section className="work_section layout_padding">
-<div className="container">
-  <div className="heading_container">
-    <h2>
-      DOWNLOAD FILE ENCRYPTION SOFTWARE
-    </h2>
-    <p>
-      We have several encryption products to suit everyone, from basic file encryption to real-time secure file collaboration… and everything in-between. All our trials are fully functional for 30 days.
-    </p>
-  </div>
-  <div className="work_container layout_padding2">
-    <div className="box b-1">
-      <img src="images/w-1.png" alt />
-    </div>
-    <div className="box b-2">
-      <img src="images/w-2.png" alt />
-    </div>
-    <div className="box b-3">
-      <img src="images/w-3.png" alt />
-    </div>
-    <div className="box b-4">
-      <img src="images/w-4.png" alt />
-    </div>
-  </div>
-</div>
-</section>
-
-
-<section className="client_section">
-<div className="container">
-  <div className="heading_container">
-    <h2>
-      WHAT CUSTOMERS SAY
-    </h2>
-  </div>
-  <div className="carousel-wrap ">
-    <div className="owl-carousel">
-      <div className="item">
-        <div className="box">
-          <div className="img-box">
-            <img src="images/c-1.png" alt />
-          </div>
-          <div className="detail-box">
-            <h5>
-              Tempor incididunt <br />
-              <span>
-                Dipiscing elit
-              </span>
-            </h5>
-            <img src="images/quote.png" alt />
+      <section className="work_section layout_padding">
+        <div className="container">
+          <div className="heading_container">
+            <h2>
+              DOWNLOAD FILE ENCRYPTION SOFTWARE
+            </h2>
             <p>
-              Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              We have several encryption products to suit everyone, from basic file encryption to real-time secure file collaboration… and everything in-between. All our trials are fully functional for 30 days.
             </p>
           </div>
-        </div>
-      </div>
-      <div className="item">
-        <div className="box">
-          <div className="img-box">
-            <img src="images/c-2.png" alt />
-          </div>
-          <div className="detail-box">
-            <h5>
-              Tempor incididunt <br />
-              <span>
-                Dipiscing elit
-              </span>
-            </h5>
-            <img src="images/quote.png" alt />
-            <p>
-              Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            </p>
+          <div className="work_container layout_padding2">
+            <div className="box b-1">
+              <img src="images/w-1.png" alt="Encryption software interface preview 1" />
+            </div>
+            <div className="box b-2">
+              <img src="images/w-2.png" alt="Encryption software interface preview 2" />
+            </div>
+            <div className="box b-3">
+              <img src="images/w-3.png" alt="Encryption software interface preview 3" />
+            </div>
+            <div className="box b-4">
+              <img src="images/w-4.png" alt="Encryption software interface preview 4" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="item">
-        <div className="box">
-          <div className="img-box">
-            <img src="images/c-3.png" alt />
-          </div>
-          <div className="detail-box">
-            <h5>
-              Tempor incididunt <br />
-              <span>
-                Dipiscing elit
-              </span>
-            </h5>
-            <img src="images/quote.png" alt />
-            <p>
-              Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
+      </section>
 
+      <section className="client_section">
+        <div className="container">
+          <div className="heading_container">
+            <h2>
+              WHAT CUSTOMERS SAY
+            </h2>
+          </div>
+          <div className="carousel-wrap ">
+            <div className="owl-carousel">
+              <div className="item">
+                <div className="box">
+                  <div className="img-box">
+                    <img src="images/c-1.png" alt="Customer profile picture 1" />
+                  </div>
+                  <div className="detail-box">
+                    <h5>
+                      Tempor incididunt <br />
+                      <span>
+                        Dipiscing elit
+                      </span>
+                    </h5>
+                    <img src="images/quote.png" alt="Quotation mark icon" />
+                    <p>
+                      Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="box">
+                  <div className="img-box">
+                    <img src="images/c-2.png" alt="Customer profile picture 2" />
+                  </div>
+                  <div className="detail-box">
+                    <h5>
+                      Tempor incididunt <br />
+                      <span>
+                        Dipiscing elit
+                      </span>
+                    </h5>
+                    <img src="images/quote.png" alt="Quotation mark icon" />
+                    <p>
+                      Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="box">
+                  <div className="img-box">
+                    <img src="images/c-3.png" alt="Customer profile picture 3" />
+                  </div>
+                  <div className="detail-box">
+                    <h5>
+                      Tempor incididunt <br />
+                      <span>
+                        Dipiscing elit
+                      </span>
+                    </h5>
+                    <img src="images/quote.png" alt="Quotation mark icon" />
+                    <p>
+                      Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
  {/* end client section */}
   {/* target section */}
