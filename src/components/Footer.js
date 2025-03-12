@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Footer() {
+  // this is try comment
   return (
     <div>
           <section className="info_section ">
