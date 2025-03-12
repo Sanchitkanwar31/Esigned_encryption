@@ -13,7 +13,7 @@ function Footer() {
             </h5>
             <div>
               <div className="img-box">
-                <img src="images/location-white.png" width="18px" alt />
+                <img src="images/location-white.png" width="18px" alt="location" />
               </div>
               <p>
                 Address
@@ -21,7 +21,7 @@ function Footer() {
             </div>
             <div>
               <div className="img-box">
-                <img src="images/telephone-white.png" width="12px" alt />
+                <img src="images/telephone-white.png" width="12px" alt="telephone" />
               </div>
               <p>
                 +01 1234567890
@@ -29,7 +29,7 @@ function Footer() {
             </div>
             <div>
               <div className="img-box">
-                <img src="images/envelope-white.png" width="18px" alt />
+                <img src="images/envelope-white.png" width="18px" alt="envelope" />
               </div>
               <p>
                 demo@gmail.com
@@ -56,36 +56,36 @@ function Footer() {
               <div>
                 <a href>
                   <div className="insta-box b-1">
-                    <img src="images/insta.png" alt />
+                    <img src="images/insta.png" alt="insta" />
                   </div>
                 </a>
                 <a href>
                   <div className="insta-box b-2">
-                    <img src="images/insta.png" alt />
+                    <img src="images/insta.png" alt="insta" />
                   </div>
                 </a>
               </div>
               <div>
                 <a href>
                   <div className="insta-box b-3">
-                    <img src="images/insta.png" alt />
+                    <img src="images/insta.png" alt="insta" />
                   </div>
                 </a>
                 <a href>
                   <div className="insta-box b-4">
-                    <img src="images/insta.png" alt />
+                    <img src="images/insta.png" alt="insta" />
                   </div>
                 </a>
               </div>
               <div>
                 <a href>
                   <div className="insta-box b-3">
-                    <img src="images/insta.png" alt />
+                    <img src="images/insta.png" alt="insta" />
                   </div>
                 </a>
                 <a href>
                   <div className="insta-box b-4">
-                    <img src="images/insta.png" alt />
+                    <img src="images/insta.png" alt="insta" />
                   </div>
                 </a>
               </div>
@@ -105,16 +105,16 @@ function Footer() {
             </form>
             <div className="social_box">
               <a href>
-                <img src="images/fb.png" alt />
+                <img src="images/fb.png" alt="fb" />
               </a>
               <a href>
-                <img src="images/twitter.png" alt />
+                <img src="images/twitter.png" alt="twiter" />
               </a>
               <a href>
-                <img src="images/linkedin.png" alt />
+                <img src="images/linkedin.png" alt="linkdein" />
               </a>
               <a href>
-                <img src="images/youtube.png" alt />
+                <img src="images/youtube.png" alt="youtube" />
               </a>
             </div>
           </div>
