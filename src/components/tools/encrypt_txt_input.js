@@ -33,7 +33,7 @@ function EncryptPage() {
       const data = await response.json();
       setEncryptedText(data.Encrypted_text);
     } catch (error) {
-      console.error(error);
+      console.log(error);
       alert("Encryption failed!");
     }
   };
