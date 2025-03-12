@@ -18,7 +18,7 @@ function EncryptPage() {
     }
 
     try {
-      const response = await fetch("http://localhost:8000/encrypt", {
+      const response = await fetch("https://esigned-backend.onrender.com/encrypt", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
