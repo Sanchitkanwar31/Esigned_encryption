@@ -40,36 +40,36 @@ function Footer() {
                 <h5>Instagram</h5>
                 <div className="insta_container">
                   <div>
-                    <a href="#">
+                    <a href="/">
                       <div className="insta-box b-1">
                         <img src="images/insta.png" alt="insta" />
                       </div>
                     </a>
-                    <a href="#">
+                    <a href="/">
                       <div className="insta-box b-2">
                         <img src="images/insta.png" alt="insta" />
                       </div>
                     </a>
                   </div>
                   <div>
-                    <a href="#">
+                    <a href="/">
                       <div className="insta-box b-3">
                         <img src="images/insta.png" alt="insta" />
                       </div>
                     </a>
-                    <a href="#">
+                    <a href="/">
                       <div className="insta-box b-4">
                         <img src="images/insta.png" alt="insta" />
                       </div>
                     </a>
                   </div>
                   <div>
-                    <a href="#">
+                    <a href="/">
                       <div className="insta-box b-3">
                         <img src="images/insta.png" alt="insta" />
                       </div>
                     </a>
-                    <a href="#">
+                    <a href="/">
                       <div className="insta-box b-4">
                         <img src="images/insta.png" alt="insta" />
                       </div>
@@ -81,7 +81,7 @@ function Footer() {
             <div className="col-md-3">
               <div className="info_form">
                 <h5>Newsletter</h5>
-                <form action="#">
+                <form action="/">
                   <input type="email" placeholder="Enter your email" />
                   <button>Subscribe</button>
                 </form>
