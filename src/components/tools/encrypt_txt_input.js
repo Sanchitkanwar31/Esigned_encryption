@@ -16,14 +16,15 @@ function EncryptPage() {
       alert("Please enter both text and key.");
       return;
     }
+    //  IF ORIGINAL LOCALHOST:=const response = await fetch("http://127.0.0.1:8000/encrypt"
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/encrypt", {
+      const response = await fetch("https://esigned-backend.onrender.com/encrypt", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ text, key }), // Sending key along with text
+        body: JSON.stringify({ text, key }), // Sending key along with text 
       });
 
       if (!response.ok) {
