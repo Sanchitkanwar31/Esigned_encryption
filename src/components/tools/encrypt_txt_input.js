@@ -20,12 +20,13 @@ function EncryptPage() {
 
     try {
       const response = await fetch("https://esigned-backend.onrender.com/encrypt", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ text, key }), // Sending key along with text 
-      });
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ text, key }), // Sending key along with text
+  credentials: "include", // ✅ Ensures credentials are sent
+});
 
       if (!response.ok) {
         throw new Error("Server Error");
