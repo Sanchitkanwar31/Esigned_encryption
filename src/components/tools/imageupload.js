@@ -19,9 +19,10 @@ const EncryptImage = () => {
     const formData = new FormData();
     formData.append('image', selectedImage);
     formData.append('text', secretText);
-
+    //https://esigned-backend.onrender.com/encode-image is used for deployment
+    //http://localhost:8000/encode-image is used for local testing
     try {
-      const response = await fetch('http://localhost:8000/encode-image', {
+      const response = await fetch('https://esigned-backend.onrender.com/encode-image', {
         method: 'POST',
         body: formData,
       });

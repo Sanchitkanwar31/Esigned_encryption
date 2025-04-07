@@ -23,7 +23,7 @@ const DecryptImage = () => {
 
     try {
       setLoading(true);
-      const response = await fetch('http://localhost:8000/decode-image', {
+      const response = await fetch('https://esigned-backend.onrender.com/decode-image', {
         method: 'POST',
         body: formData,
       });
