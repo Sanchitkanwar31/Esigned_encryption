@@ -12,6 +12,8 @@ import Contact from './components/nav/Contact';
 import Footer from './components/Footer';
 import EncryptPage from './components/tools/encrypt_txt_input';
 import DecryptPage from './components/tools/decryption_txt';
+import EncryptImage from './components/tools/imageupload';
+import DecryptImage from './components/tools/imagedecrypt';
 function App() {
   return (
     <>
@@ -19,6 +21,8 @@ function App() {
     <Routes>
       <Route path="/encrypt" element={<EncryptPage />} />
       <Route path="/decrypt" element={<DecryptPage />} />
+      <Route path="/EncryptImage" element={<EncryptImage />} />
+      <Route path="/DecryptImage" element={<DecryptImage />} />
       <Route path='/' element={ 
           <div className="hero_area">
               <Header />
