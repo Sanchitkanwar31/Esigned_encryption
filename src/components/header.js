@@ -33,14 +33,14 @@ function Header() {
                   <NavLink to="/contact" className={"nav-link"}>Help/Support</NavLink>
                   </li>
                 </ul>
-                <div className="user_option">
+                {/* <div className="user_option">
                   <a href="#">
                     <img src="images/user.png" alt="User" />
                   </a>
                   <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                     <button className="btn my-2 my-sm-0 nav_search-btn" type="submit"></button>
                   </form>
-                </div>
+                </div> */}
               </div>
             </div>
           </nav>

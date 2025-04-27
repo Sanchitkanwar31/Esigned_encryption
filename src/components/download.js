@@ -10,7 +10,7 @@ function Download() {
               DOWNLOAD FILE ENCRYPTION SOFTWARE
             </h2>
             <p>
-              We have several encryption products to suit everyone, from basic file encryption to real-time secure file collaboration… and everything in-between. All our trials are fully functional for 30 days.
+              <h5>We have several encryption products to suit everyone, from basic file encryption to real-time secure file collaboration… and everything in-between. All our trials are fully functional.</h5>
             </p>
           </div>
           <div className="work_container layout_padding2">
@@ -30,7 +30,7 @@ function Download() {
         </div>
       </section>
 
-      <section className="client_section">
+      {/* <section className="client_section">
         <div className="container">
           <div className="heading_container">
             <h2>
@@ -99,11 +99,11 @@ function Download() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
  {/* end client section */}
   {/* target section */}
-  <section className="target_section layout_padding2">
+  {/* <section className="target_section layout_padding2">
     <div className="container">
       <div className="row">
         <div className="col-md-3 col-sm-6">
@@ -144,6 +144,45 @@ function Download() {
             <h5>
               Cups of Coffee
             </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> */}
+
+ <section className="contact_section layout_padding">
+    <div className="container">
+      <div className="heading_container">
+        <h2>
+          Request A Call Back
+        </h2>
+      </div>
+      <div className>
+        <div className>
+          <div className="row">
+            <div className="col-md-9 mx-auto">
+              <div className="contact-form">
+                <form action>
+                  <div>
+                    <input type="text" placeholder="Full Name " />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Phone Number" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email Address" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Message" className="input_message" />
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <button type="submit" className="btn_on-hover">
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>

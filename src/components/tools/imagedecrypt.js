@@ -23,7 +23,7 @@ const DecryptImage = () => {
 
     try {
       setLoading(true);
-      const response = await fetch('https://esigned-backend.onrender.com/decode-image', {
+      const response = await fetch('http://127.0.0.1:8000/decode-image', {
         method: 'POST',
         body: formData,
       });
@@ -35,10 +35,12 @@ const DecryptImage = () => {
       const result = await response.json();
       setDecodedMessage(result.message);
       setSelectedImage(null);
-    } catch (error) {
+    } 
+    catch (error) {
       console.error('Error decoding image:', error);
       setDecodedMessage('Error: Could not decode the image.');
-    } finally {
+    } 
+    finally {
       setLoading(false);
     }
   };

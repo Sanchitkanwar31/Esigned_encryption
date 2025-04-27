@@ -39,9 +39,10 @@ function Contact() {
                     <input type="text" placeholder="Message" class="input_message"/>
                   </div>
                   <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn_on-hover">
-                      Send
-                    </button>
+                  <a href="mailto:sanchitkanwar31@gmail.com?subject=Call%20Back%20Request&body=Full%20Name:%20%0APhone%20Number:%20%0AEmail:%20%0AMessage:" target="_blank">
+  <button type="button">Send</button>
+</a>
+
                   </div>
                 </form>
               </div>

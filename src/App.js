@@ -2,6 +2,8 @@ import React from 'react';
 import Slider from './components/slider';
 import Header from './components/header';
 import We_do from './components/we_do';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import { NavLink, Route, Routes } from 'react-router-dom';
 
