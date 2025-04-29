@@ -37,7 +37,7 @@ const DecryptImage = () => {
       setSelectedImage(null);
     } 
     catch (error) {
-      console.error('Error decoding image:', error);
+      console.log('Error decoding image:', error);
       setDecodedMessage('Error: Could not decode the image.');
     } 
     finally {
